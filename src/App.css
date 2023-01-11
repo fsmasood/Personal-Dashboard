@@ -1,0 +1,40 @@
+html {
+  background-color: #ADD8E6; /* Light blue color */
+}
+
+body {
+  max-width: 1200px; /* Set a maximum width for the body */
+  margin: 0 auto; /* Center the body horizontally */
+  padding: 32px; /* Add padding to the body */
+  color: #333; /* Set text color for the body */
+}
+
+main {
+  max-width: 100%; /* Ensure the main element takes up the full width of its parent container */
+  margin: 0 auto; /* Center the main element horizontally */
+  padding: 32px; /* Add padding to the main element */
+}
+
+section {
+  display: flex; /* Arrange child elements in a flex container */
+}
+
+@media (max-width: 600px) {
+  section {
+    display: block; /* Change the display property to block when the viewport width is 600px or less */
+  }
+}
+
+h3 {
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px; /* Increase letter spacing */
+  margin-top: 24px; /* Add margin to the top */
+}
+
+a {
+  display: block; /* Make the a element take up the full width of its parent container */
+  margin: 8px 0 32px 0; /* Add margin to the top and bottom */
+  color: #333; /* Set text color for the a element */
+}
+
+
